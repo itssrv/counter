@@ -1,0 +1,36 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+.container {
+            text-align: center; /* Horizontal centering */
+            display: flex; /* Flex container */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+            flex-direction: column;
+}
+
+.container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.container p {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container button{
+    margin-top: 20px;
+    flex-direction: row;
+    background-color: wheat;
+    padding: 10px;
+}
+
+.container button:hover {
+    background-color: azure;
+}
+
